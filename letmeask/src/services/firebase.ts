@@ -20,5 +20,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 // Setando variáveis
-// const auth = firebase.auth();
-// const database = firebase.database();
+const auth = firebase.auth();
+const database = firebase.database();
+
+export { firebase, auth, database };

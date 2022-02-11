@@ -7,12 +7,13 @@ import "../styles/auth.scss";
 import { Button } from "../components/Button";
 
 export function NewRoom() {
+
     return (
         <div id="page-auth">
             <aside>
                 <img src={illustrationImg} alt="Illustração" />
-                <strong>Toda pergunta tem sua resposta.</strong>
-                <p>Aprenda a compartilhar conhecimento com outras pessoas</p>
+                <strong>Crie salas Q&amp;A ao-vivo</strong>
+                <p>Tire as dúvidas de sua audiência em tempo real</p>
             </aside>
             <main>
                 <div className="main-content">
